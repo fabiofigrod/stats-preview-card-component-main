@@ -24,10 +24,16 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
-      <div>
+    <main class="card">
+      <div class="card-content">
         <h1>Get <em>insights</em> that help your business grow.</h1>
 
         <p>
@@ -35,17 +41,26 @@
           regarding revenue, customer experience, and overall efficiency.
         </p>
 
-        <ul>
-          <li><b>10k+</b> companies</li>
-          <li><b>314</b> templates</li>
-          <li><b>12m+</b> queries</li>
+        <ul class="stats-list">
+          <li class="stat-item">
+            <b class="stat-number">10k+</b> <span>COMPANIES</span>
+          </li>
+          <li class="stat-item">
+            <b class="stat-number">314</b> <span>TEMPLATES</span>
+          </li>
+          <li class="stat-item">
+            <b class="stat-number">12M+</b> <span>QUERIES</span>
+          </li>
         </ul>
       </div>
 
-      <img
-        src="./images/image-header-desktop.jpg"
-        alt="Three girls working in a clean an modern office."
-      />
+      <div class="image-container">
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="Three girls working in a clean an modern office."
+          class="card-image"
+        />
+      </div>
     </main>
 
     <div class="attribution">
